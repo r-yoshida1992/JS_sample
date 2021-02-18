@@ -17,7 +17,7 @@ function initApp() {
     const word = create('div', 'word-text')
     const enterdSpan = create('span', 'enterd');
     const notEnterdSpan = create('span', 'not-enterd');
-    const hiddenText = create('span', 'hidden-text');
+    const hiddenText = create('input', 'hidden-text');
 
     // contains build
     appRoute.append(container);
