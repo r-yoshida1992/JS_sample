@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #333333
+}
+
+#typing-app {
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 700px;
+    height: 300px;
+    background-color: #ffffff;
+    position: relative;
+    border-radius: 16px;
+}
+
+#container {
+    width: 600px;
+    height: 200px;
+    background-color: #111111;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    color: #ffffff;
+    border-radius: 16px;
+}
+
+#word-head {
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#word-furigana {
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 25px;
+}
+
+#word-text {
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    font-size: 25px;
+}
+
+#enterd {
+    color: red;
+}
+
+#not-enterd {
+    color: #dfdfdf;
+}
